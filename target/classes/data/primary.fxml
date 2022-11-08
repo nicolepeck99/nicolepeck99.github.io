@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox alignment="CENTER" prefHeight="460.0" prefWidth="504.0" spacing="20.0" style="-fx-background-color: linear-gradient(#4568DC, #B06AB3);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="data.PrimaryController">
+   
+   <children>
+      <Label text="Colors" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font></Label>
+      <!--green-->
+      <Button fx:id="primaryButton" onAction="#switchToGreen" style="-fx-background-color: linear-gradient(#39fc03, #316612);" text="Green" textFill="WHITE" />
+      <!--yellow-->
+      <Button fx:id="newButton" onAction="#switchToYellow" style="-fx-background-color: linear-gradient(#c9bb16, #998d06);" text="Yellow" textFill="WHITE" />
+      <!--blue-->
+      <Button fx:id="newButton1" onAction="#switchToBlue" layoutX="235.0" layoutY="269.0" style="-fx-background-color: linear-gradient(#064399, #067799);" text="Blue" textFill="WHITE" />
+      <!--indigo-->
+      <Button fx:id="newButton11" onAction="#switchToIndigo" layoutX="235.0" layoutY="292.0" style="-fx-background-color: linear-gradient(#860af7, #f50ce8);" text="Indigo" textFill="WHITE" />
+      <!--violet-->
+      <Button fx:id="newButton111" onAction="#switchToViolet" layoutX="236.0" layoutY="316.0" style="-fx-background-color: linear-gradient(#860af7, #800d7a);" text="Violet" textFill="WHITE" />
+      <!--orange-->
+      <Button fx:id="newButton1111" onAction="#switchToOrange" layoutX="237.0" layoutY="339.0" style="-fx-background-color: linear-gradient(#f29500, #cda410);" text="Orange" textFill="WHITE" />
+      <!--red-->
+      <Button fx:id="newButton11111" onAction="#switchToRed" layoutX="233.0" layoutY="363.0" style="-fx-background-color: linear-gradient(#f00000, #cc2810);" text="Red" textFill="WHITE" />
+      <!--surprise-->
+      <Button fx:id="newButton111111" onAction="#switchToSurprise" layoutX="242.0" layoutY="410.0" style="-fx-background-color: black;" text="What's this?" textFill="WHITE" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
